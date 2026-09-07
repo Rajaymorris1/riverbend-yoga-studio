@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riverbend Yoga Studio | Classes &amp; Services</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>Riverbend Yoga Studio</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" aria-current="page">Classes &amp; Services</a></li>
+        <li><a href="about.html">About Our Instructors</a></li>
+        <li><a href="events.html">Workshops &amp; Events</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" aria-label="Services introduction">
+    <div class="section-inner">
+      <h2>Classes &amp; Services</h2>
+      <p>
+        Every class at Riverbend is offered at a few different levels of
+        intensity, so you can choose what fits your body that day. Browse
+        our regular classes below, or scroll down for the full weekly
+        schedule and pricing.
+      </p>
+    </div>
+  </section>
+
+  <section aria-label="Class types">
+    <div class="section-inner">
+      <h2>Our Classes</h2>
+      <div class="card-grid">
+        <article class="card">
+          <span class="tag">Beginner friendly</span>
+          <h3>Gentle Flow</h3>
+          <p>
+            Slow, supported movement paired with breathwork. The best
+            starting point if you're new to yoga or returning after time away.
+          </p>
+        </article>
+        <article class="card">
+          <span class="tag">All levels</span>
+          <h3>Restorative Evenings</h3>
+          <p>
+            Long-held, props-supported poses designed to calm the nervous
+            system after a long day. Bolsters and blankets provided.
+          </p>
+        </article>
+        <article class="card">
+          <span class="tag">Intermediate</span>
+          <h3>Vinyasa Basics</h3>
+          <p>
+            A steady, breath-linked flow that builds strength and stamina
+            while still leaving room for modifications.
+          </p>
+        </article>
+        <article class="card">
+          <span class="tag">Accessible seated</span>
+          <h3>Chair Yoga</h3>
+          <p>
+            A seated and standing practice that supports limited mobility,
+            balance concerns, or recovery from injury.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Weekly schedule">
+    <div class="section-inner">
+      <h2>Weekly Schedule</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Riverbend Yoga Studio &mdash; regular weekly classes</caption>
+          <thead>
+            <tr>
+              <th scope="col">Class</th>
+              <th scope="col">Day</th>
+              <th scope="col">Time</th>
+              <th scope="col">Instructor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Gentle Flow</td>
+              <td>Mon / Wed / Fri</td>
+              <td>8:00 a.m.</td>
+              <td>Maria Torres</td>
+            </tr>
+            <tr>
+              <td>Restorative Evenings</td>
+              <td>Tue / Thu</td>
+              <td>6:30 p.m.</td>
+              <td>Jordan Lee</td>
+            </tr>
+            <tr>
+              <td>Vinyasa Basics</td>
+              <td>Saturday</td>
+              <td>9:30 a.m.</td>
+              <td>Maria Torres</td>
+            </tr>
+            <tr>
+              <td>Chair Yoga</td>
+              <td>Wednesday</td>
+              <td>11:00 a.m.</td>
+              <td>Priya Anand</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Pricing">
+    <div class="section-inner">
+      <h2>Pricing</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Drop-in Class</h3>
+          <p>$18 per class. No commitment required &mdash; just show up.</p>
+        </article>
+        <article class="card">
+          <h3>Monthly Unlimited</h3>
+          <p>$95 per month for unlimited access to every regular class.</p>
+        </article>
+        <article class="card">
+          <h3>New Student Week</h3>
+          <p>$25 for your first seven days, any class, any instructor.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Reserve a spot">
+    <div class="section-inner">
+      <h2>Reserve Your Spot</h2>
+      <p>
+        Classes are kept small so instructors can offer hands-on guidance.
+        Let us know you're coming and we'll have a mat ready for you.
+      </p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Class reservation</legend>
+
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="class-choice">Which class?</label>
+            <select id="class-choice" name="class-choice">
+              <option value="gentle-flow">Gentle Flow</option>
+              <option value="restorative">Restorative Evenings</option>
+              <option value="vinyasa">Vinyasa Basics</option>
+              <option value="chair-yoga">Chair Yoga</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="notes">Anything we should know? (optional)</label>
+            <textarea id="notes" name="notes" rows="3"></textarea>
+            <p class="hint">For example, an injury, first time, or accessibility need.</p>
+          </div>
+
+          <button type="submit">Reserve my spot</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Riverbend Yoga Studio &mdash; 123 Riverbend Lane &mdash; Riverbend, OR</p>
+</footer>
+
+</body>
+</html>
